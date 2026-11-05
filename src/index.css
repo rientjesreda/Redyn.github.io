@@ -1,0 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;450;500;550;600;650;700;750;800&family=Playfair+Display:ital,wght@1,500&display=swap');
+
+:root{font-family:'DM Sans',sans-serif;color:#131832;background:#f8f9ff;font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-optical-sizing:auto;font-weight:400;font-size:17px;scroll-behavior:smooth;--paper:#f8f9ff;--ink:#111632;--muted:#626984;--orange:#675dff;--mono:'DM Mono',monospace}
+*,*::before,*::after{box-sizing:border-box}body{margin:0;min-width:360px}body,button,a{font-family:'DM Sans',sans-serif}a{color:inherit;text-decoration:none}button{color:inherit}::selection{background:#d9d8ff;color:#111632}img{max-width:100%;display:block}button:focus-visible,a:focus-visible{outline:2px solid var(--orange);outline-offset:4px}#root{min-height:100vh}
