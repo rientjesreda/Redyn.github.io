@@ -76,7 +76,7 @@ function App() {
   return (
     <>
       <header className="topbar">
-        <a className="brand" href="#home" aria-label="Redyn, naar de startpagina"><img src="/redyn-logo.png" alt="Redyn — Websites & Automatisering" /></a>
+        <a className="brand" href="#home" aria-label="Redyn, naar de startpagina"><img src={`${import.meta.env.BASE_URL}redyn-logo.png`} alt="Redyn — Websites & Automatisering" /></a>
         <button className="menu-toggle" aria-label={menuOpen ? 'Menu sluiten' : 'Menu openen'} aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}><span /><span /></button>
         <nav className={menuOpen ? 'nav nav-open' : 'nav'} aria-label="Hoofdnavigatie">
           <a href="#diensten" onClick={() => setMenuOpen(false)}>Wat ik doe</a>
@@ -142,7 +142,7 @@ function App() {
           <span className="contact-note">KLEINE VRAAG OF GROOT IDEE — JE BENT WELKOM.</span><span className="contact-decoration" aria-hidden="true">r.</span></div></section>
       </main>
 
-      <footer className="footer"><a className="brand footer-brand" href="#home" aria-label="Redyn, naar boven"><img src="/redyn-logo.png" alt="Redyn — Websites & Automatisering" /></a><span>Websites & slimme automatisering voor ondernemers.</span><a className="footer-top" href="#home">TERUG NAAR BOVEN ↑</a><span className="footer-copy">© {new Date().getFullYear()} REDYN</span></footer>
+      <footer className="footer"><a className="brand footer-brand" href="#home" aria-label="Redyn, naar boven"><img src={`${import.meta.env.BASE_URL}redyn-logo.png`} alt="Redyn — Websites & Automatisering" /></a><span>Websites & slimme automatisering voor ondernemers.</span><a className="footer-top" href="#home">TERUG NAAR BOVEN ↑</a><span className="footer-copy">© {new Date().getFullYear()} REDYN</span></footer>
     </>
   )
 }
